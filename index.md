@@ -1,12 +1,17 @@
 ---
 layout: default
-title: "Home"
+title: "Syed Murtaza Arshad"
 ---
 
-<section class="bio">
-    <h2>About Me</h2>
-    <p>Hi! I'm <strong>Syed Murtaza Arshad</strong>, a Ph.D. candidate at The Ohio State University. My research focuses on MRI reconstruction, signal processing, and machine learning.</p>
+<section class="news">
+    <h2>News & Updates</h2>
+    <ul>
+        <li>My abstract, <a href="https://buckeyemailosu-my.sharepoint.com/:b:/r/personal/arshad_32_buckeyemail_osu_edu/Documents/Work/SCMR%202025/SCMR25_EMORe_Arshad.pdf?csf=1&web=1&e=aGelJT" target="_blank" class="custom-link">"Motion-robust XD-CMR reconstruction using the Expectation-Maximization (EM) algorithm,"</a> got accepted for an oral presentation at <a href="https://scmr.org/event-calendar/welcome-message/#" target="_blank" class="custom-link">SCMR'25</a>. I will present my work on January 31, 2025, in Washington, DC.</li>     <li>Co-authored abstract on "Ferumoxytol-enhanced free-running 5D whole-heart CMR at 0.55" got accepted for an oral presentation at SCMR'25.</li>     
+        <li>Co-authored manuscript, <a href="https://arxiv.org/html/2412.04639v1" target="_blank" class="custom-link">"Motion-Guided Deep Image Prior for Cardiac MRI"</a>, uploaded on arXiv.</li>     
+        <li>Won 2nd Position in Kraus Memorial Poster Competition 2024, The Ohio State University.</li>
+    </ul>
 </section>
+
 
 <section class="projects">
     <h2>Projects</h2>
@@ -32,3 +37,8 @@ title: "Home"
     <p>GitHub: <a href="https://github.com/syedmurtazaarshad" target="_blank">syedmurtazaarshad</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/syedmurtazaarshad" target="_blank">syedmurtazaarshad</a></p>
 </section>
+
+
+
+
+

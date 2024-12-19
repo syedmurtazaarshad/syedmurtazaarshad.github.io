@@ -65,7 +65,7 @@ header {
 }
 
 .social-icons {
-    margin-top: -30px;
+    margin-top: -6px;
     display: flex;
     justify-content: center; /* Center the entire row horizontally */
     align-items: center; /* Align items in the middle */
@@ -160,4 +160,39 @@ a.custom-link {
 
 a.custom-link:hover {
     color: #005b99; /* Slightly darker blue on hover */
+}
+
+
+
+#news {
+    margin-top: 0px;
+}
+
+#news h2 {
+    font-size: 1.8em;
+    color: #8B0000; /* Match the header color */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8B0000; /* Add a line below the heading */
+    padding-bottom: 5px;
+}
+
+#news ul {
+    list-style: disc inside; /* Use bullet points */
+    margin-left: 20px; /* Add indentation for the list */
+    color: #333; /* Text color */
+}
+
+#news ul li {
+    margin-bottom: 10px; /* Add spacing between items */
+    font-size: 1em; /* Set font size */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+#news ul li a {
+    color: #007acc; /* Link color */
+    text-decoration: none;
+}
+
+#news ul li a:hover {
+    color: #005b99; /* Darker blue on hover */
 }
