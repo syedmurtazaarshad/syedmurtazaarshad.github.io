@@ -1,23 +1,10 @@
-title: My Portfolio
-description: A showcase of my work and projects
-baseurl: ""
+title: "Syed Murtaza Arshad Portfolio"
+description: "Ph.D. Candidate specializing in Biomedical Imaging and Machine Learning."
+baseurl: "" # Leave this empty for GitHub Pages
 url: "https://syedmurtazaarshad.github.io"
-author:
-  name: "Syed Murtaza Arshad"
-  email: "your-email@example.com"
-theme: "minimal"
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-exclude:
-  - README.md
-  - _posts
-  - _layouts
-  - _includes
-  - _sass
-  - assets
-  - index.html
-  - .gitignore
-  - Gemfile
-  - Gemfile.lock
+theme: minima
+author: "Syed Murtaza Arshad"
+email: "SyedMurtazaArshad@gmail.com"
+social:
+  github: "https://github.com/syedmurtazaarshad"
+  linkedin: "https://linkedin.com/in/syedmurtazaarshad"

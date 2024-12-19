@@ -38,11 +38,12 @@ To get started with this portfolio, follow these steps:
    ```
    bundle install
    ```
+   6. **Run the Jekyll Server**: Start the Jekyll server to view your portfolio locally:
+      ```
+      bundle exec jekyll serve
+      ```
 
-6. **Run the Jekyll Server**: Start the Jekyll server to view your portfolio locally:
-   ```
-   bundle exec jekyll serve
-   ```
+   If you encounter an error like `Could not locate Gemfile`, ensure that you are in the correct project directory where the `Gemfile` is located.
 
 7. **Open in Browser**: Visit `http://localhost:4000` in your web browser to see your portfolio in action.
 

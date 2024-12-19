@@ -1,1 +1,28 @@
-// This file is intentionally left blank.
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 0;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 0;
+}
+a {
+    color: #007acc;
+}
+a:hover {
+    text-decoration: underline;
+}
