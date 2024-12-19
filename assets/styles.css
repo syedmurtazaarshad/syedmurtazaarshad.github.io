@@ -1,0 +1,163 @@
+/* Base Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Set the base font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Text color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header Styling */
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #8B0000; /* Red separator line */
+    color: #333;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile img {
+    width: 200px; /* Profile image size */
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 15px;
+
+}
+
+.profile-text {
+    text-align: left;
+}
+
+.profile-text h1 {
+    margin: 0;
+    font-size: 2em; /* Name font size */
+    font-weight: bold;
+}
+
+.profile-text h2 {
+    margin: 0px 0 5px;
+    font-size: 1.4em; /* Title font size */
+    font-weight: normal;
+    font-style: italic; /* Makes the text italic */
+}
+
+
+.profile-text p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+.social-icons {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center; /* Center the entire row horizontally */
+    align-items: center; /* Align items in the middle */
+    gap: 35px; /* Spacing between each icon-text pair */
+    flex-direction: row; /* Keep icons and text in a horizontal row */
+    padding-left: 100px; /* Shift the icons to the right */
+
+}
+
+.social-icons div {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center the icon and text */
+    text-align: center; /* Center-align text */
+}
+
+.social-icons img {
+    width: 40px; /* Icon size */
+    height: 40px;
+    margin-bottom: -8px; /* Add spacing between icon and text */
+}
+
+.social-icons a.custom-link {
+    font-size: 0.9em;
+    color: #007acc; /* Light blue color */
+    text-decoration: none; /* Removes underline */
+    margin-bottom: -20px; /* Reduce spacing between text and the next element */
+
+}
+
+.social-icons a.custom-link:hover {
+    color: #005b99; /* Darker blue on hover */
+}
+
+
+
+
+/* Section Styling */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    border-bottom: 2px solid #8B0000; /* Red underline */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #8B0000;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* General styling for all anchor tags */
+a.custom-link {
+    text-decoration: none; /* Removes the underline */
+    color: #007acc; /* Sets a light blue color */
+    font-weight: normal; /* Keeps the text weight normal */
+}
+
+a.custom-link:hover {
+    color: #005b99; /* Slightly darker blue on hover */
+}

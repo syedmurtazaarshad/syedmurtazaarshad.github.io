@@ -6,16 +6,70 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 </head>
+
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+        <div class="container">
+            <div class="profile">
+                <img src="/assets/profile.jpg" alt="Profile Picture">
+                <div class="profile-text">
+                    <h1>Syed Murtaza Arshad, M.S.</h1>
+                    <h2>Ph.D. Candidate, Electrical & Computer Engineering</h2>
+                    <p>
+                        My research interests include developing and applying signal processing, optimization & machine learning techniques to imaging problems. 
+                        I am co-advised by 
+                        <a href="https://u.osu.edu/ahmad/" target="_blank" class="custom-link">Rizwan Ahmad</a> 
+                        & 
+                        <a href="https://u.osu.edu/potter.36/" target="_blank" class="custom-link">Lee Potter</a>, 
+                        funded by the NIH Grant R01HL151697.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="social-icons">
+                <div>
+                    <a href="https://github.com/syedmurtazaarshad" target="_blank">
+                        <img src="/assets/icons/github.png" alt="GitHub Icon">
+                    </a>
+                    <a href="https://github.com/syedmurtazaarshad" target="_blank" class="custom-link">SyedMurtazaArshad</a>
+                </div>
+                <div>
+                    <a href="https://linkedin.com/in/syedmurtazaarshad" target="_blank">
+                        <img src="/assets/icons/linkedin.png" alt="LinkedIn Icon">
+                    </a>
+                    <a href="https://linkedin.com/in/syedmurtazaarshad" target="_blank" class="custom-link">SyedMurtazaArshad</a>
+                </div>
+                <div>
+                    <a href="https://scholar.google.com/citations?user=nRft6FYAAAAJ&hl=en" target="_blank">
+                        <img src="/assets/icons/scholar.png" alt="Google Scholar Icon">
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=nRft6FYAAAAJ&hl=en" target="_blank" class="custom-link">Google Scholar</a>
+                </div>
+                <div>
+                    <a href="/assets/files/CV_Syed Murtaza Arshad.pdf" target="_blank">
+                        <img src="/assets/icons/cv.png" alt="CV Icon">
+                    </a>
+                    <a href="/assets/files/CV_Syed Murtaza Arshad.pdf" target="_blank" class="custom-link">CV</a>
+                </div>
+                <div>
+                    <a href="mailto:syedmurtazaarshad@gmail.com" target="_blank">
+                        <img src="/assets/icons/gmail.png" alt="Gmail Icon">
+                    </a>
+                    <a href="mailto:syedmurtazaarshad@gmail.com" target="_blank" class="custom-link">SyedMurtazaArshad@gmail.com</a>
+                </div>
+            </div>
+            
+        </div>
     </header>
     <main>
-        {{ content }}
+        <div class="container">
+            {{ content }}
+        </div>
     </main>
     <footer>
-        <p>&copy; {{ site.author }}</p>
+        <div class="container">
+            <p>&copy; {{ site.author }} | <a href="mailto:{{ site.email }}">Contact</a></p>
+        </div>
     </footer>
 </body>
 </html>
