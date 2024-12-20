@@ -201,3 +201,19 @@ a.custom-link:hover {
 #news ul li a:hover {
     color: #005b99; /* Darker blue on hover */
 }
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align both image and text */
+        text-align: center; /* Ensure the text is centered */
+    }
+
+    .profile img {
+        margin: 0 auto; /* Center the image */
+    }
+
+    .profile-text {
+        text-align: center; /* Center the text below the image */
+    }
+}
