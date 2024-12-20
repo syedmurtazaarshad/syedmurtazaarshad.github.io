@@ -25,12 +25,14 @@ header {
     flex-direction: column;
     border-bottom: 2px solid #8B0000; /* Red separator line */
     color: #333;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .profile {
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    text-align: center;    
 }
 
 .profile img {
@@ -67,14 +69,14 @@ header {
 }
 
 .social-icons {
-    margin-top: -0px;
+    margin-top: 5px;
     display: flex;
     justify-content: center; /* Center the entire row horizontally */
     align-items: center; /* Align items in the middle */
     gap: 35px; /* Spacing between each icon-text pair */
     flex-direction: row; /* Keep icons and text in a horizontal row */
     padding-left: 100px; /* Shift the icons to the right */
-
+    flex-wrap: wrap; /* Allow icons to wrap to the next line */
 }
 
 .social-icons div {
