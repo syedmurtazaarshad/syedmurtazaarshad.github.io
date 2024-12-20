@@ -71,11 +71,12 @@ header {
 .social-icons {
     margin-top: 5px;
     display: flex;
-    justify-content: center; /* Center the entire row horizontally */
-    align-items: center; /* Align items in the middle */
+    justify-content: flex-end; /* Align to the left initially */
+    align-items: flex-end; /* Align items in the middle */
     gap: 35px; /* Spacing between each icon-text pair */
     flex-direction: row; /* Keep icons and text in a horizontal row */
-    padding-left: 100px; /* Shift the icons to the right */
+    /*padding-right: 0px; /* Shift the icons to the right */
+    margin-right: 50px;
     flex-wrap: wrap; /* Allow icons to wrap to the next line */
 }
 
