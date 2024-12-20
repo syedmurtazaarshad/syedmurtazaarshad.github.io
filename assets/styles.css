@@ -12,6 +12,8 @@ body {
     width: 90%;
     max-width: 1100px;
     margin: auto;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 /* Header Styling */
@@ -65,7 +67,7 @@ header {
 }
 
 .social-icons {
-    margin-top: -6px;
+    margin-top: -0px;
     display: flex;
     justify-content: center; /* Center the entire row horizontally */
     align-items: center; /* Align items in the middle */
@@ -165,7 +167,7 @@ a.custom-link:hover {
 
 
 #news {
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 #news h2 {
@@ -174,6 +176,7 @@ a.custom-link:hover {
     margin-bottom: 15px;
     border-bottom: 2px solid #8B0000; /* Add a line below the heading */
     padding-bottom: 5px;
+    margin-top: -15px; /* Reduce space between the line and the heading */
 }
 
 #news ul {
