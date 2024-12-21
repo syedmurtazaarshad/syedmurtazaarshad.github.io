@@ -1,19 +1,17 @@
 /* Base Styling */
 body {
-    font-family: 'Arial', sans-serif; /* Set the base font */
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Light grey background */
-    color: #333; /* Text color */
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 
 /* Header Styling */
@@ -23,25 +21,24 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: 2px solid #8B0000; /* Red separator line */
+    border-bottom: 2px solid #8B0000;
     color: #333;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
+/* Profile Styling */
 .profile {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
-    text-align: center;    
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .profile img {
-    width: 200px; /* Profile image size */
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 3px solid white;
-    margin-top: 15px;
-
 }
 
 .profile-text {
@@ -50,91 +47,62 @@ header {
 
 .profile-text h1 {
     margin: 0;
-    font-size: 2em; /* Name font size */
+    font-size: 2em;
     font-weight: bold;
 }
 
 .profile-text h2 {
     margin: 0px 0 5px;
-    font-size: 1.4em; /* Title font size */
+    font-size: 1.4em;
     font-weight: normal;
-    font-style: italic; /* Makes the text italic */
+    font-style: italic;
 }
-
 
 .profile-text p {
     margin: 0;
     font-size: 1.2em;
     line-height: 1.4;
-    border-bottom: none; /* Removes the red underline for this specific paragraph */
 }
 
+/* Social Icons Styling */
 .social-icons {
     margin-top: 5px;
     display: flex;
-    justify-content: center; /* Align to the left initially */
-    align-items: center; /* Align items in the middle */
-    gap: 35px; /* Spacing between each icon-text pair */
-    flex-direction: row; /* Keep icons and text in a horizontal row */
-    flex-wrap: wrap; /* Allow icons to wrap to the next line */
-}
-
-.social-icons div {
-    display: flex;
-    flex-direction: column; /* Stack icon and text vertically */
-    align-items: center; /* Center the icon and text */
-    text-align: center; /* Center-align text */
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
 }
 
 .social-icons img {
-    width: 40px; /* Icon size */
+    width: 40px;
     height: 40px;
-    margin-bottom: -8px; /* Add spacing between icon and text */
 }
 
-.social-icons a.custom-link {
-    font-size: 0.9em;
-    color: #007acc; /* Light blue color */
-    text-decoration: none; /* Removes underline */
-    margin-bottom: -20px; /* Reduce spacing between text and the next element */
-
-}
-
-.social-icons a.custom-link:hover {
-    color: #005b99; /* Darker blue on hover */
-}
-
-
-
-
-/* Section Styling */
-main {
-    padding: 20px 0;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-p {
-    border-bottom: 2px solid #8B0000; /* Red underline */
-    padding-bottom: 8px;
-    margin-bottom: 15px;
-    color: #555;
-}
-
+/* Projects Section */
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
 .project {
     background: white;
-    padding: 15px;
+    padding: 0px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.project img {
+    width: 100%; /* Make the GIF responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .project h3 {
@@ -142,6 +110,25 @@ p {
     color: #333;
 }
 
+.project p {
+    margin: 0 0 10px;
+}
+
+/* News Section */
+.news {
+    margin-top: 20px;
+}
+
+.news ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.news ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px 0;
@@ -150,70 +137,19 @@ footer {
     margin-top: 20px;
 }
 
-footer a {
-    color: white;
-    text-decoration: underline;
-}
-
-/* General styling for all anchor tags */
-a.custom-link {
-    text-decoration: none; /* Removes the underline */
-    color: #007acc; /* Sets a light blue color */
-    font-weight: normal; /* Keeps the text weight normal */
-}
-
-a.custom-link:hover {
-    color: #005b99; /* Slightly darker blue on hover */
-}
-
-
-
-#news {
-    margin-top: 10px;
-}
-
-#news h2 {
-    font-size: 1.8em;
-    color: #8B0000; /* Match the header color */
-    margin-bottom: 15px;
-    border-bottom: 2px solid #8B0000; /* Add a line below the heading */
-    padding-bottom: 5px;
-    margin-top: -15px; /* Reduce space between the line and the heading */
-}
-
-#news ul {
-    list-style: disc inside; /* Use bullet points */
-    margin-left: 20px; /* Add indentation for the list */
-    color: #333; /* Text color */
-}
-
-#news ul li {
-    margin-bottom: 10px; /* Add spacing between items */
-    font-size: 1em; /* Set font size */
-    line-height: 1.5; /* Adjust line height for readability */
-}
-
-#news ul li a {
-    color: #007acc; /* Link color */
-    text-decoration: none;
-}
-
-#news ul li a:hover {
-    color: #005b99; /* Darker blue on hover */
-}
-
+/* Responsive Design */
 @media (max-width: 768px) {
     .profile {
-        flex-direction: column; /* Stack image and text vertically */
-        align-items: center; /* Center align both image and text */
-        text-align: center; /* Ensure the text is centered */
+        flex-direction: column;
+        align-items: center;
     }
 
-    .profile img {
-        margin: 0 auto; /* Center the image */
+    .project {
+        width: 60%;
     }
 
-    .profile-text {
-        text-align: center; /* Center the text below the image */
+    .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
