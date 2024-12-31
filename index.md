@@ -84,7 +84,7 @@ title: "Syed Murtaza Arshad"
             <img src="/assets/gifs/lowfield.gif" alt="In-magnet exercise CMR" class="project-img">
                 <h3>Low-Field 4D flow Cardiac Magnetic Resonance Imaging</h3>
             <p>
-                Developed new CMR protocols and reconstruction frameworks to facilitate assessment of cardiac function during exercise stress using planar, volumetric and flow imaging.
+                Developed new CMR protocols and reconstruction frameworks to facilitate volumetric flow imaging at a low-field scanner.
             </p>
         </div>
         <div class="project">
