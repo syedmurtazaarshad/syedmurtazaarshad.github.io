@@ -101,6 +101,10 @@ title: "Syed Murtaza Arshad"
                 <a href="https://youtu.be/wlyYk-eeM3M?si=KScoKaDOfwm34wc_" target="_blank" class="custom-link" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
                     Video <img src="/assets/icons/video-icon.png" alt="GitHub Icon" style="width:24px; height:24px;">
                 </a>
+                                <a>|</a>
+                <a href="/assets/Posters/Project_iSight_Poster.pdf" target="_blank" class="custom-link" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                    Poster <img src="/assets/icons/poster-icon.png" alt="Poster Icon" style="width:24px; height:24px;">
+                </a>
             </div>
         </div>
     </div>
