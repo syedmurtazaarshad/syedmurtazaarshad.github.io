@@ -6,9 +6,9 @@ title: "Syed Murtaza Arshad"
 <section class="news section-divider">
     <h2>News & Updates</h2>
     <ul>
-        <li>My abstract, <a href="/assets/files/SCMR25_Abstract_Arshad.pdf" target="_blank" class="custom-link">"Motion-robust XD-CMR reconstruction using the Expectation-Maximization (EM) algorithm,"</a> got accepted for an oral presentation at <a href="https://scmr.org/event-calendar/welcome-message/#" target="_blank" class="custom-link">SCMR'25</a>. I will present my work on January 31, 2025, in Washington, DC.</li>     <li>Co-authored abstract on "Ferumoxytol-enhanced free-running 5D whole-heart CMR at 0.55" got accepted for an oral presentation at SCMR'25.</li>     
-        <li>Co-authored manuscript, <a href="https://arxiv.org/html/2412.04639v1" target="_blank" class="custom-link">"Motion-Guided Deep Image Prior for Cardiac MRI"</a>, uploaded on arXiv.</li>     
-        <li>Won 2nd Position in Kraus Memorial Poster Competition 2024 for my work on motion correction in XD-CMR.</li>
+        <li>Started a summer internship in May 2025 at Canon Medical Research USA (CMRU) as an MR Feature Development Research Scientist.</li>     
+        <li>Co-authored the manuscript <a href="https://doi.org/10.1016/j.jocmr.2025.101894" target="_blank" class="custom-link">"Accelerated real-time cine and flow under in-magnet staged exercise"</a>, published in the <em>Journal of Cardiovascular Magnetic Resonance</em>, Volume 27, Issue 1, Summer 2025 (Article 101894).</li>     
+        <li>Awarded 2nd Place at the 2025 Hayes Research Forum for my oral presentation on “Motion-Robust Volumetric CMR.”</li>
     </ul>
 </section>
 
