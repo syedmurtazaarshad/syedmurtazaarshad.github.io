@@ -6,6 +6,9 @@ title: "Syed Murtaza Arshad"
 <section class="news section-divider">
     <h2>News & Updates</h2>
     <ul>
+        <li>Received Presidential Fellowship 2026 at The Ohio State University.</li>  
+        <li>Awarded SCMR Travel Grant award to attend SCMR 29th Annual Scientific Sessions in Rio de Janerio, Brazil.</li>    
+        <li>Co-authored the manuscript <a href="https://doi.org/10.1016/j.jocmr.2025.102015" target="_blank" class="custom-link">"A multi-dynamic low-rank deep image prior (ML-DIP) for 3D real-time cardiovascular MRI"</a>, published in the <em>Journal of Cardiovascular Magnetic Resonance (JCMR)</em>, 2025.</li>    
         <li>Selected for oral presentation at the <em>29th SCMR Annual Scientific Sessions</em>, Rio de Janeiro, Brazil for our abstract submission "Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)"</li>
         <li>Completed summer internship in Summer 2025 at Canon Medical Research USA (CMRU) as an MR Feature Development Research Scientist.</li>     
         <li>Co-authored the manuscript <a href="https://doi.org/10.1002/mrm.70000" target="_blank" class="custom-link">"Multi-dynamic deep image prior for cardiac MRI"</a>, published in the <em>Magnetic Resonance Medicine</em>, Volume 94, Issue 6, 22 July 2025.</li>     
@@ -17,6 +20,26 @@ title: "Syed Murtaza Arshad"
 <section class="projects section-divider">
     <h2>Research Projects</h2>
     <div class="project-grid">
+        <div class="project">
+            <img src="/assets/gifs/5d_mri.gif" alt="Motion-robust 5D MRI GIF" class="project-img">
+                <h3>Motion-robust 5D MRI Reconstruction</h3>
+            <p>
+                Integrated expectation-maximization (EM) framework, an unsupervised technique, in 5D MRI reconstruction to correct motion binning errors and reject outliers.
+            </p>
+            <div class="project-links">
+                <a href="https://arxiv.org/abs/2507.23224" target="_blank" class="custom-link" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                    Paper <img src="/assets/icons/paper-icon.png" alt="Paper Icon" style="width:24px; height:24px;">
+                </a>
+                <a>|</a>
+                <a href="https://github.com/OSU-MR/Motion-Robust-5D-MRI-EMORe" target="_blank" class="custom-link" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                    Code <img src="/assets/icons/github-icon.png" alt="GitHub Icon" style="width:24px; height:24px;">
+                </a>
+                <a>|</a>
+                <a href="https://doi.org/10.1016/j.jocmr.2024.101509" target="_blank" class="custom-link" style="text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                    Abstract <img src="/assets/icons/abstract-icon.png" alt="Abstract Icon" style="width:24px; height:24px;">
+                </a>
+            </div>
+        </div>
         <div class="project">
             <img src="/assets/gifs/4D_flow.gif" alt="4D Flow Image Reconstruction GIF" class="project-img">
                 <h3>Motion-robust 4D Flow Image Reconstruction</h3>
