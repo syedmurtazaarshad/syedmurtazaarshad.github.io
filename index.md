@@ -6,7 +6,7 @@ title: "Syed Murtaza Arshad"
 <section class="news section-divider">
     <h2>News & Updates</h2>
     <ul>
-        <li>Received Presidential Fellowship 2026 at The Ohio State University.</li>  
+        <li>Received <a href="https://gradsch.osu.edu/news/2025/11/24/2025-26-presidential-fellowship-recipients" target="_blank" class="custom-link">Presidential Fellowship 2026 at The Ohio State University</a>.</li>  
         <li>Awarded SCMR Travel Grant award to attend SCMR 29th Annual Scientific Sessions in Rio de Janerio, Brazil.</li>    
         <li>Co-authored the manuscript <a href="https://doi.org/10.1016/j.jocmr.2025.102015" target="_blank" class="custom-link">"A multi-dynamic low-rank deep image prior (ML-DIP) for 3D real-time cardiovascular MRI"</a>, published in the <em>Journal of Cardiovascular Magnetic Resonance (JCMR)</em>, 2025.</li>    
         <li>Selected for oral presentation at the <em>29th SCMR Annual Scientific Sessions</em>, Rio de Janeiro, Brazil for our abstract submission "Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)"</li>
