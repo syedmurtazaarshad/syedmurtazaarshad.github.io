@@ -7,7 +7,51 @@
     <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 </head>
 
-<body>
+<body id="top">
+    <nav class="top-nav">
+        <div class="nav-links">
+            <a href="#top" class="nav-link">Bio</a>
+            <a href="#news" class="nav-link">News</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#publications" class="nav-link">Publications &amp; Patents</a>
+            <a href="#talks" class="nav-link">Talks</a>
+        </div>
+    </nav>
+    <style>
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: #8B0000;
+            border-bottom: 2px solid #8B0000;
+        }
+
+        .top-nav .nav-links {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 10px 16px;
+            text-align: center;
+        }
+
+        .top-nav .nav-link {
+            display: inline-block;
+            margin: 0 22px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .top-nav .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            margin-top: 56px; /* create space below fixed nav */
+        }
+    </style>
     <header>
         <div class="container">
             <div class="profile">
@@ -15,7 +59,7 @@
                 <div class="profile-text">
                     <h1>Syed Murtaza Arshad, M.S.</h1>
                     <h2>Ph.D. Candidate, Electrical & Computer Engineering</h2>
-                    <p> I work on developing and applying signal processing, optimization, and deep learning techniques for advanced reconstruction of cardiac magnetic resonance imaging (MRI). My doctoral research, funded by NIH Grant R01HL151697, focuses on motion-robust, real-time whole-heart flow imaging innovations. I am co-advised by <a href="https://u.osu.edu/ahmad/" target="_blank" class="custom-link">Rizwan Ahmad</a> and <a href="https://u.osu.edu/potter.36/" target="_blank" class="custom-link">Lee Potter</a> at The Ohio State University. In summer 2025, I completed a research internship with the MR Feature Development team at Canon Medical Research USA (CMRU). I also received the <a href="https://gradsch.osu.edu/news/2024/04/11/leadership-celebrated-2023-24-graduate-associate-leadership-award" target="_blank" class="custom-link">Graduate Associate Leadership Award (2024)</a>. </p>
+                    <p> I develop machine learning, deep learning and novel optimization techniques for advanced reconstruction and post-processing of medical images. My doctoral research, funded by NIH Grant R01HL151697, focuses on motion-robust, real-time whole-heart flow MRI. I am co-advised by <a href="https://u.osu.edu/ahmad/" target="_blank" class="custom-link">Rizwan Ahmad</a> and <a href="https://u.osu.edu/potter.36/" target="_blank" class="custom-link">Lee Potter</a> at The Ohio State University. In summer 2025, I completed a research internship with the MR Feature Development team at Canon Medical Research USA (CMRU). I was awarded the <a href="https://engineering.osu.edu/news/2025/12/seven-engineering-grad-students-named-presidential-fellows" target="_blank" class="custom-link">Presidential Fellowship 2025-26</a> and received the <a href="https://gradsch.osu.edu/news/2024/04/11/leadership-celebrated-2023-24-graduate-associate-leadership-award" target="_blank" class="custom-link">Graduate Associate Leadership Award (2024)</a>.</p>
                 </div>
             </div>
             <div class="social-icons">

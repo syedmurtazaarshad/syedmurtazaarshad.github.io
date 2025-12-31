@@ -9,7 +9,6 @@
 </ul>
 <h3>Preprints</h3>
 <ul class="publication-list">
-<li><div class="publication-title"><a href="https://doi.org/10.48550/arXiv.2507.19404" target="_blank">A multi-dynamic low-rank deep image prior (ML-DIP) for real-time 3D cardiovascular MRI.</a><span class="publication-year">2025</span></div><div class="publication-authors">Chong Chen, Marc Vornehm, Zhenyu Bu, Preethi S. Chandrasekaran, Muhammad A. Sultan, <strong>Syed M. Arshad</strong>, Yingmin Liu, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>Under revision, submitted to Journal of Cardiovascular Magnetic Resonance (JCMR)</em></div></li>
 <li><div class="publication-title"><a href="https://doi.org/10.48550/arXiv.2507.23224" target="_blank">EMORe: Motion-Robust 5D MRI Reconstruction via Expectation-Maximization-Guided Binning Correction and Outlier Rejection.</a><span class="publication-year">2025</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Lee C. Potter, Yingmin Liu, Christopher Crabtree, Matthew S. Tong, Rizwan Ahmad</div><div class="publication-journal"><em>Under revision, submitted to IEEE Transactions on Medical Imaging (TMI)</em></div></li>
 </ul>
 <h3>Abstracts</h3>
@@ -24,6 +23,11 @@
 <li><div class="publication-title"><a href="https://doi.org/10.1016/j.jocmr.2024.100315" target="_blank">Motion-robust 3D Cine Imaging Using Compressive Recovery with Outlier Rejection (CORe)</a><span class="publication-year">2024</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Lee Potter, Chong Chen, Preethi Chandrasekaran, Yingmin Liu, Christopher Crabtree, Matthew Tong, Orlando Simonetti, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>SCMR'24, London, UK</em></div></li>
 <li><div class="publication-title"><a href="https://archive.ismrm.org/2023/1087.html" target="_blank">Motion artifact reduction in self-gated CMR 4D flow imaging under exercise stress.</a><span class="publication-year">2023</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Chong Chen, Yingmin Liu, Preethi Chandrasekaran, Christopher Crabtree, Ning Jin, Rizwan and Ahmad</div><div class="publication-journal"><em>ISMRM'23, Toronto, Canada</em></div></li>
 <li><div class="publication-title"><a href="https://archive.ismrm.org/2023/1078.html" target="_blank">Biventricular and hemodynamic assessment under multi-stage exercise using real-time CMR.</a><span class="publication-year">2023</span></div><div class="publication-authors">Preethi Chandrasekaran, Chong Chen, Yingmin Liu, Christopher Crabtree, <strong>Syed M. Arshad</strong>, Matthew Tong, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>ISMRM'23, Toronto, Canada</em></div></li>
+</ul>
+<h3>Patents</h3>
+<ul class="publication-list">
+<li><div class="publication-title"><a href="https://drive.google.com/file/d/1-YaVKiiuCUCqnJGDdj_4LqgocqfurmsG/" target="_blank">Motion Robust Cardiovascular Imaging</a><span class="publication-year">2025</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Rizwan Ahmad</div><div class="publication-journal"><em>App# 19/249,490</em></div></li>
+<li><div class="publication-title"><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238469" target="_blank">Systems And Methods for Cardiovascular Magnetic Resonance Imaging</a><span class="publication-year">2024</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Rizwan Ahmad</div><div class="publication-journal"><em>App# PCT/US2024/029098, Publication# WO/2024/238469</em></div></li>
 </ul>
 </section>
 <section class="talks">

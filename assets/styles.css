@@ -36,6 +36,39 @@ header {
     color: #333;
 }
 
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #8B0000; /* same deep red as header border */
+    border-bottom: 2px solid #8B0000;
+}
+
+.top-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 8px 0;
+}
+
+.top-nav .nav-link {
+    text-decoration: none;
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.top-nav .nav-link:hover {
+    color: #ffd7d7;
+    text-decoration: underline;
+}
+
+section {
+    scroll-margin-top: 110px;
+}
+
 .profile {
     display: flex;
     flex-direction: row;

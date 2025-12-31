@@ -10,8 +10,8 @@ def generate_publications_section():
     publications = pd.read_excel('publications.xlsx')
     
     # Define the desired order for publication types
-    section_order = ["Journal Articles", "Preprints", "Abstracts"]
-    output = "<section class=\"publications\">\n<h2>Publications</h2>\n"
+    section_order = ["Journal Articles", "Preprints", "Abstracts", "Patents"]
+    output = "<section id=\"publications\" class=\"publications\">\n<h2>Publications &amp; Patents</h2>\n"
     
     for pub_type in section_order:
         group = publications[publications['Type'] == pub_type]
@@ -47,7 +47,7 @@ def generate_talks_section():
     # Sort by date, latest first
     talks = talks.sort_values(by='Date', ascending=False)
     
-    output = "<section class=\"talks\">\n<h2>Talks & Presentations</h2>\n<ul class=\"talk-list\">\n"
+    output = "<section id=\"talks\" class=\"talks\">\n<h2>Talks &amp; Presentations</h2>\n<ul class=\"talk-list\">\n"
     for _, row in talks.iterrows():
         year = pd.to_datetime(row['Date']).year if not pd.isna(row['Date']) else ""
         details = f"<em>{row['Details']}</em>" if 'Details' in row and not pd.isna(row['Details']) else ""
