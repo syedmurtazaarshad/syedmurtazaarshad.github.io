@@ -17,6 +17,49 @@ title: "Syed Murtaza Arshad"
     </ul>
 </section>
 
+<section id="interests" class="interests section-divider">
+    <h2>Interests &amp; Skills</h2>
+    <div class="interests-grid">
+        <div class="interests-column">
+            <h3>Research Interests</h3>
+            <div class="tag-list">
+                <span class="tag">Image reconstruction</span>
+                <span class="tag">Machine learning</span>
+                <span class="tag">Deep learning</span>
+                <span class="tag">Deep image priors</span>
+                <span class="tag">Optimization algorithms</span>
+                <span class="tag">Outlier rejection</span>
+                <span class="tag">Medical Image Processing</span>
+                <span class="tag">4D flow imaging</span>
+                <span class="tag">Real-time imaging</span>
+            </div>
+        </div>
+        <div class="interests-column">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li>
+                    <strong>Programming:</strong>
+                    <div class="tag-list">
+                        <span class="tag">Python</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Java</span>
+                    </div>
+                </li>
+                <li>
+                    <strong>Libraries:</strong>
+                    <div class="tag-list">
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Optuna</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">TensorFlow</span>
+                        <span class="tag">scikit-learn</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 <section id="projects" class="projects section-divider">
     <h2>Research Projects</h2>

@@ -228,6 +228,56 @@ section {
     margin-bottom: 10px;
 }
 
+/* Interests & Skills Section */
+.interests {
+    margin-top: 40px;
+}
+
+.interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.interests-column {
+    flex: 1 1 300px;
+}
+
+.interests-column h3 {
+    margin-top: 0;
+    color: #8B0000;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.tag {
+    font-size: 0.9em;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #eef3ff;
+    color: #333;
+    border: 1px solid #c6d4ff;
+}
+
 /* Footer */
 footer {
     text-align: center;
