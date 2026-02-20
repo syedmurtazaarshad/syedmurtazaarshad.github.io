@@ -7,13 +7,13 @@ title: "Syed Murtaza Arshad"
     <h2>News & Updates</h2>
     <ul>
         <li>Received <a href="https://engineering.osu.edu/news/2025/12/seven-engineering-grad-students-named-presidential-fellows" target="_blank" class="custom-link">Presidential Fellowship 2026 at The Ohio State University</a>.</li>  
+        <li>Received the College of Engineering Graduate Student Travel Award to attend SCMR 2026.</li>
         <li>Awarded SCMR Travel Grant award to attend SCMR 29th Annual Scientific Sessions in Rio de Janerio, Brazil.</li>    
         <li>Awarded the <a href="https://cgs.osu.edu/funding-awards-resources/ray-travel-award" target="_blank" class="custom-link">Ray Travel Award 2025–26</a> from The Ohio State University.</li>    
         <li>Received the <a href="https://cgs.osu.edu/funding-awards-resources/career-development-grant" target="_blank" class="custom-link">Career Development Grant</a> from The Ohio State University.</li>        
         <li>Co-authored the manuscript <a href="https://doi.org/10.1016/j.jocmr.2025.102015" target="_blank" class="custom-link">"A multi-dynamic low-rank deep image prior (ML-DIP) for 3D real-time cardiovascular MRI"</a>, published in the <em>Journal of Cardiovascular Magnetic Resonance (JCMR)</em>, 2025.</li>    
-        <li>Selected for oral presentation at the <em>29th SCMR Annual Scientific Sessions</em>, Rio de Janeiro, Brazil for our abstract submission "Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)"</li>
-        <li>Completed summer internship in Summer 2025 at Canon Medical Research USA (CMRU) as an MR Feature Development Research Scientist.</li>     
-        <li>Co-authored the manuscript <a href="https://doi.org/10.1002/mrm.70000" target="_blank" class="custom-link">"Multi-dynamic deep image prior for cardiac MRI"</a>, published in the <em>Magnetic Resonance Medicine</em>, Volume 94, Issue 6, 22 July 2025.</li>     
+        <li>Selected for oral presentation at the <em>29th SCMR Annual Scientific Sessions</em>, Rio de Janeiro, Brazil for our abstract submission "Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)".</li>
+        <li>One abstract accepted for oral presentation and one selected as a digital poster at ISMRM 2026, Cape Town, South Africa.</li>
     </ul>
 </section>
 

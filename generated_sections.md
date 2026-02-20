@@ -1,5 +1,5 @@
-<section class="publications">
-<h2>Publications</h2>
+<section id="publications" class="publications">
+<h2>Publications &amp; Patents</h2>
 <h3>Journal Articles</h3>
 <ul class="publication-list">
 <li><div class="publication-title"><a href="https://doi.org/10.1016/j.jocmr.2025.102015" target="_blank">A multi-dynamic low-rank deep image prior (ML-DIP) for 3D real-time cardiovascular MRI</a><span class="publication-year">2025</span></div><div class="publication-authors">Chong Chen, Marc Vornehm, Zhenyu Bu, Preethi Chandrasekaran, Muhammad A Sultan, <strong>Syed M. Arshad</strong>, Yingmin Liu, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>Journal of Cardiovascular Magnetic Resonance</em></div></li>
@@ -13,7 +13,9 @@
 </ul>
 <h3>Abstracts</h3>
 <ul class="publication-list">
-<li><div class="publication-title"><a href="nan" target="_blank">Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)</a><span class="publication-year">2026</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Lee Potter, Preethi Chandrasekaran, Yingmin Liu, Christopher Crabtree, Matthew Tong, Juliet Varghese, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>Upcoming SCMR'26, Rio de Janeiro, Brazil</em></div></li>
+<li><div class="publication-title"><a href="nan" target="_blank">Real4DFlow: Real-time whole-heart 4D flow reconstruction framework from a 5-minute scan using multi-dynamic deep image prior.</a><span class="publication-year">2026</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Salman Pervaiz, Lee Potter, Preethi Chandrasekaran, Yingmin Liu, Christopher Crabtree, Matthew Tong, Rizwan Ahmad</div><div class="publication-journal"><em>(Upcoming) ISMRM'26, Cape Town, South Africa</em></div></li>
+<li><div class="publication-title"><a href="nan" target="_blank">Ferumoxytol-enhanced whole-heart 4D flow on a commercial 0.55T system.</a><span class="publication-year">2026</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Salman Pervaiz, Lee Potter, Preethi Chandrasekaran, Yingmin Liu, Christopher Crabtree, Orlando Simonetti, Juliet Varghese, Rizwan Ahmad</div><div class="publication-journal"><em>(Upcoming) ISMRM'26, Cape Town, South Africa</em></div></li>
+<li><div class="publication-title"><a href="https://doi.org/10.1016/j.jocmr.2025.102629" target="_blank">Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)</a><span class="publication-year">2026</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Lee Potter, Preethi Chandrasekaran, Yingmin Liu, Christopher Crabtree, Matthew Tong, Juliet Varghese, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>SCMR'26, Rio de Janeiro, Brazil</em></div></li>
 <li><div class="publication-title"><a href="https://submissions.mirasmart.com/ISMRM2025/Handlers/ViewTeaser.ashx?esbpgm=2906_120" target="_blank">Motion-Guided Deep Image Prior for Dynamic Cardiac MRI.</a><span class="publication-year">2025</span></div><div class="publication-authors">Marc Vornehm, Chong Chen, Muhammad Ahmad Sultan, <strong>Syed M. Arshad</strong>, Florian Knoll, Rizwan Ahmad</div><div class="publication-journal"><em>ISMRM'25, Honolulu, Hawaii</em></div></li>
 <li><div class="publication-title"><a href="https://submissions.mirasmart.com/ISMRM2025/Handlers/ViewTeaser.ashx?esbpgm=9952_2770" target="_blank">Motion-Guided Deep Image Prior for 3D Real-Time Cine (M-DIP-3D).</a><span class="publication-year">2025</span></div><div class="publication-authors">Chong Chen, Marc Vornehm, Muhammad Ahmad Sultan, <strong>Syed M. Arshad</strong>, Yuchi Han, Rizwan Ahmad</div><div class="publication-journal"><em>ISMRM'25, Honolulu, Hawaii</em></div></li>
 <li><div class="publication-title"><a href="https://submissions.mirasmart.com/ISMRM2025/Handlers/ViewTeaser.ashx?esbpgm=37_324" target="_blank">Free-Running Time-Resolved 3D+time Cardiovascular MRI at 40 Hz in a One Minute Scan using Cartesian Sampling and CMR-MOTUS.</a><span class="publication-year">2025</span></div><div class="publication-authors">Thomas E. Olausson, Maarten L. Terpstra, Edwin Versteeg, Casper Beijst, <strong>Syed M. Arshad</strong>, Birgitta K. Velthuis, Cornelis van den Berg, Alessandro Sbrizzi</div><div class="publication-journal"><em>ISMRM'25, Honolulu, Hawaii</em></div></li>
@@ -30,8 +32,8 @@
 <li><div class="publication-title"><a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024238469" target="_blank">Systems And Methods for Cardiovascular Magnetic Resonance Imaging</a><span class="publication-year">2024</span></div><div class="publication-authors"><strong>Syed M. Arshad</strong>, Rizwan Ahmad</div><div class="publication-journal"><em>App# PCT/US2024/029098, Publication# WO/2024/238469</em></div></li>
 </ul>
 </section>
-<section class="talks">
-<h2>Talks & Presentations</h2>
+<section id="talks" class="talks">
+<h2>Talks &amp; Presentations</h2>
 <ul class="talk-list">
 <li><div class="talk-title">Motion-robust whole-heart 5D MRI using Expectation-Maximization-Guided Binning Correction and Outlier Rejection (EMORe)<span class="talk-year">2026</span></div><div class="talk-details"><em>Upcoming SCMR'26, Rio de Janeiro, Brazil</em></div></li>
 <li><div class="talk-title"><a href="https://cgs.osu.edu/programs-events/edward-f-hayes-advanced-research-forum/hayes-2025-winners" target="_blank">EMORe: Motion-robust free-breathing volumetric cardiovascular magnetic resonance image reconstruction using Expectation-Maximization (EM) algorithm</a><span class="talk-year">2025</span></div><div class="talk-details"><em>2025 Hayes Advanced Research Forum, The Ohio State University, Columbus, OH | 2nd Place Winner</em></div></li>

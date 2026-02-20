@@ -11,10 +11,9 @@
     <nav class="top-nav">
         <div class="nav-links">
             <a href="#top" class="nav-link">Bio</a>
-            <a href="#news" class="nav-link">News</a>
             <a href="#interests" class="nav-link">Interests &amp; Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
-            <a href="#publications" class="nav-link">Publications &amp; Patents</a>
+            <a href="#publications" class="nav-link">Publications</a>
             <a href="#talks" class="nav-link">Talks</a>
         </div>
     </nav>
@@ -51,6 +50,21 @@
 
         header {
             margin-top: 56px; /* create space below fixed nav */
+        }
+
+        @media (max-width: 768px) {
+            .top-nav .nav-links {
+                padding: 8px 8px;
+            }
+
+            .top-nav .nav-link {
+                margin: 0 12px;
+                font-size: 16px;
+            }
+
+            header {
+                margin-top: 72px; /* extra space so nav doesn't cover profile on mobile */
+            }
         }
     </style>
     <header>
